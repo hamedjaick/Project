@@ -14,9 +14,9 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '10.x'                # set this to the node version to use
+  AZURE_WEBAPP_NAME: Them-for-Web-Site    # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: 'C:\Documents\Web-App\'      # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: '12.14.1'                # set this to the node version to use
 
 jobs:
   build-and-deploy:
